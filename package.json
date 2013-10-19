@@ -1,0 +1,24 @@
+{
+  "name": "cmdsrv",
+  "version": "0.1.0",
+  "description": "simple text protocol command server",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brettlangdon/cmdsrv.git"
+  },
+  "keywords": [
+    "text",
+    "protocol",
+    "command",
+    "server"
+  ],
+  "author": "Brett Langdon <http://brett.is/> (brett@blangdon.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brettlangdon/cmdsrv/issues"
+  }
+}
