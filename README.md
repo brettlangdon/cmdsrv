@@ -83,7 +83,10 @@ Start the server.
 An options callback that gets called when the server is listening.
 
 ## Default Events
-* `error` - this is simply the client connection error event being bubbled up to the server.
+* `error` - this is simply the client connection error event being bubbled up to the server. listener definition: `function(error)`
+* `line` - this is called with each raw line (not split on delimiter or command lowered, etc). listener definition: `function(connection, line)`
+* `connection` - this is called with each new connection. listener definition `function(connection)`
+
 
 ## License
 ```
