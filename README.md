@@ -36,7 +36,7 @@ var server = new cmdsrv();
 
 server.on("get", function(connection, key){
     // `connection` is just a normal `net.Socket` connection
-    var result = data[key] or "";
+    var result = data[key] || "";
     connection.write("RESULT " + result + "\r\n");
 });
 
