@@ -1,6 +1,6 @@
 {
   "name": "cmdsrv",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "simple text protocol command server",
   "main": "lib/index.js",
   "scripts": {

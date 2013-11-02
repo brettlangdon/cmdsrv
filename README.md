@@ -57,6 +57,7 @@ This is the constructor for `cmdsrv` and should be invoked as `new cmdsrv()`.
 * `port` - which port to bind to when calling `start` (default: `3223`)
 * `delimiter` - which character to split each command on (default: `" "`)
 * `caseSensitive` - whether or not the commands should be case sensitive (default: `false`)
+* `tokenizer` - a `function(line)` which returns a list of tokens for the line (default: `line.split(this.delimiter)`
 
 ### cmdsrv.on(command, handler)
 Received commands are emitted to any handlers listening for that command.
