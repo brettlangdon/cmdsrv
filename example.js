@@ -14,4 +14,8 @@ server.on("set", function(connection, key, value){
     connection.write("SAVED\r\n");
 });
 
+server.on("quit", function(connection){
+    connection.end();
+});
+
 server.start();
